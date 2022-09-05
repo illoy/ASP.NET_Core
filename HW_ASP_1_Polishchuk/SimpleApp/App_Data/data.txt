@@ -1,0 +1,6 @@
+﻿1, Mobile Phone, 600, Mobile Phone description, 60
+2, Laptop, 3200, Laptop description, 2
+3, Keyboard, 35, Keyboard description, 4
+4, Mouse, 10, Mouse description, 70
+5, Pen, 1, Pen description, 100
+6, Notebook, 1, Notebook description, 0
