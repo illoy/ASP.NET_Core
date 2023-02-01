@@ -32,9 +32,13 @@ namespace SimpleApp
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                        name: "Default",
-                        pattern: "{controller}/{action}/{id?}"
-                    );
+                    name: "Default",
+                    pattern: "{controller=home}/{action=index}/{id:int?}");
+
+                endpoints.MapControllerRoute(
+                    name: "Default",
+                    pattern: "{controller=home}/{action=index}/{data:regex([a-z]*)?}");
+
             });
         }
     }

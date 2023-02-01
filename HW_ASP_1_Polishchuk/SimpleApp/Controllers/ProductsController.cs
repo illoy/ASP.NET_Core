@@ -15,9 +15,23 @@ namespace SimpleApp.Controllers
         }
 
         // Products/List
-        public IActionResult List()
+        public IActionResult List(string data)
         {
             List<Product> products = _reader.ReadFromFile();
+
+            if (data != null)
+            {
+                List<Product> CathegoryProducts = new List<Product>();
+                foreach (var product in products) 
+                {
+                    if (product.Cathegory == data)
+                    {
+                        CathegoryProducts.Add(product);
+                    }
+                }
+
+                products = CathegoryProducts;
+            }
 
             return View(products);
         }

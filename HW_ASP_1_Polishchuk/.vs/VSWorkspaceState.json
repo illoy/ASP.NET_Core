@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SimpleApp",
+    "\\SimpleApp\\App_Data",
+    "\\SimpleApp\\Controllers",
+    "\\SimpleApp\\Models",
+    "\\SimpleApp\\Views",
+    "\\SimpleApp\\Views\\Home",
+    "\\SimpleApp\\Views\\Products",
+    "\\Task_3\\App_Data",
+    "\\Task_3\\Controllers"
+  ],
+  "SelectedNode": "\\SimpleApp\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}
